@@ -1,0 +1,14 @@
+To incorporate migration into the logistic growth model, we can introduce a term representing the migration rate (\(m\)) into or out of the population. Here's how we can extend the logistic growth equation to include migration:
+
+\[ \frac{{dN}}{{dt}} = rN \left(1 - \frac{{N}}{{K}}\right) + m(N_{\text{in}} - N_{\text{out}}) \]
+
+In this equation:
+
+- \(N\) represents the population size at time \(t\).
+- \(r\) is the intrinsic growth rate of the population.
+- \(K\) is the carrying capacity of the environment.
+- \(m\) is the migration rate, indicating the rate at which individuals migrate into (\(N_{\text{in}}\)) or out of (\(N_{\text{out}}\)) the population.
+
+This extended logistic growth equation accounts for the effects of migration on population dynamics. The term \(m(N_{\text{in}} - N_{\text{out}})\) represents the net change in population size due to migration, where \(N_{\text{in}}\) is the size of the incoming migrant population and \(N_{\text{out}}\) is the size of the emigrant population. 
+
+Migration can influence the growth and equilibrium of a population by introducing new individuals or removing existing ones, thus affecting the population's ability to reach or maintain its carrying capacity in a given environment.
